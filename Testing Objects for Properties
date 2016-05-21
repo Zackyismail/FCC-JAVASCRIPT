@@ -1,0 +1,29 @@
+//Code by written by Zakaria Ismail
+//Instructions
+/*
+
+Modify the function checkObj to 
+test myObj for checkProp. 
+If the property is found, 
+return that property's value. 
+If not, return "Not Found".
+*/
+//setup
+var myObject = {
+  name: "Zakaria,
+  age: 20,
+  country: "Kenya",
+  
+  };
+  function checkObj(checkProp){
+  if(myObject.hasOwnProperty(checkProp)){
+  return myObjcet[checkProp];
+  }
+  else {
+  return "Not Found";
+  }
+  }
+  checkobj("name");
+  //this should return zakaria
+  checjObj("religion");
+  
